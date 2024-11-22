@@ -12,13 +12,11 @@ public class Main {
         Animal dog1= new Dog();
         Animal cat1 = new Cat();
 
-        List<Animal> animals = new ArrayList<>();
+        /*List<Animal> animals = new ArrayList<>();
         animals.add(dog1);
-        animals.add(cat1);
-
-        for(Animal ss:animals){
-            ss.eat();
-            ss.sleep();
-        }
+        animals.add(cat1);*/
+        dog1.eat();
+        cat1.eat();
+            //ss.sleep();
     }
 }
